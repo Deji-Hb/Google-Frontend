@@ -1,0 +1,129 @@
+#nav{
+    /* list style type is to remove the bulletin from the lists */
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nav-links{
+    margin-right: 20px;
+}
+/* unvisited link */
+a:link {
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: black;
+  }
+  
+  /* selected link */
+  a:active {
+    color: black;
+  }
+
+.center-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-bar{
+  display: flex;
+  z-index: 3;
+  height: 44px;
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  margin: 0 auto;
+  width: calc(632px + 6px);
+  width: 584px;
+  max-width: 584px;
+  margin-top: 30px;
+  padding-left: 30px;
+}
+
+#search-button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: Robot, arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+#title {
+  color: red;
+  font-size: 20px arial sans-serif;
+  margin: 25px 35px;
+}
+
+#line{
+  border-bottom: 1px solid #ebebeb;
+}
+
+#fpw {
+  font-size: 16px;
+  color: black;
+}
+
+#para {
+  margin-left: 30px;
+  margin-top: 60px;
+  font: 16px arial, sans-serif;
+}
+
+.text {
+  font: 13px arial, sans-serif;
+  width: 300px;
+  vertical-align: middle;
+}
+
+.do {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+}
+
+.shift {
+  width: 381.59px;
+}
+
+#lastone {
+  width: 560px;
+}
+
+#submit {
+  background: #8ab4f8;
+  border-color: #8ab4f8;
+  color: #202124;
+  box-shadow: none;
+  background-color: #4d90fe;
+  border: 1px solid #3079ed;
+  height: 30px;
+  min-width: 120px;
+  padding: 0 12px;
+  border-radius: 2px;
+  cursor: default;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+}
+

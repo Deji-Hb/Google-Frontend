@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <ul id="nav">
+            <li class=nav-links><a href="img_search.html">Image Search</a></li>
+            <li class=nav-links><a href="adv_search.html">Advanced Search</a></li>
+        </ul>
+        <div class=center-div>
+            <img src="images/google.png" alt="Google Logo" height="92" width=""272>
+        </div>
+        <div id="search-container">
+            <!-- the default search name is q but btnI is specified for i'm feeling lucky -->
+            <form action="https://www.google.com/search" method="get">
+                <input id="search-bar" type="text" name="q">
+                <div class ="center-div">
+                    <input id="search-button" type="submit" value="Google Search">
+                    <input id="search-button" name="btnI" type="submit" value="I'm Feeling Lucky">
+                </div>
+            </form>
+        </div>
+        
+    </body>
+</html>
